@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local tooling
+.vscode/
+.agents/
+.codex/
+
+# Captures and generated/runtime data
+*.pcap
+*.pcapng
+protocols/**/captures/
+protocols/**/received_files/
+protocols/**/extracted_firmware/
+
+# Third-party/proprietary research inputs and decompiler output
+research/apk/*.apk
+research/apk/jadx-*/
+*.dll
+*.exe
+*.pex
+
+# OS/editor files
+.DS_Store
+*~
